@@ -1,0 +1,46 @@
+body{
+  font-family: "Mistral", sans-serif;
+  background-color: pink;
+}
+h1{
+  font-size: 60px;
+}
+#stopwatch p{
+  display: inline-block;
+  line-height: 1em;
+  font-size: 50px
+}
+.rojo{
+  color: #bf2b2b;
+}
+.container{
+  margin: 50px auto;
+  text-align: center;
+  width: 40%;
+}
+.watermelon{
+  min-width: 300px;
+  height: 204px;
+    border-bottom: 8px solid #5cb85c;
+    border-right: 8px solid #5cb85c;
+    border-left: 8px solid #5cb85c;
+    background-color: #ff6161;
+    -moz-border-radius: 0 0 400px 400px;
+    -webkit-border-radius: 0 0 400px 400px;
+    border-radius: 0 0 400px 400px;
+    box-shadow: 3px 20px 20px rgba(0, 0, 0, 0.3);
+}
+button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-right: 5px;
+  border-style: none;
+  border-radius: 40%;
+  text-decoration:none;
+  outline: none;
+}
+button:hover{
+    background-color: #545151;
+    cursor: pointer;
+}
